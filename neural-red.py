@@ -21,7 +21,7 @@ def on_message(client,userdata,message):
    pos=str(message.payload.decode("utf-8"))
    if(str(message.topic)=="i1"):
        global tem1
-       tem1=str(message.payload.decode("utf-8"))
+       tem1=str(message.payload.decode("utf-8"))sssssss
    if(str(message.topic)=="i2"):
        global tem2
        tem2=str(message.payload.decode("utf-8"))
