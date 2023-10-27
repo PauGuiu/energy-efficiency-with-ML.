@@ -13,9 +13,9 @@ tem3=0
 tem4=0
 pre=0
 oxi=0
-def on_connect(client,userdata,flags,rc):
+def on_connect(client,userdata,flags,rc):xxxx
     print('Connect with code'+str(rc))
-    client.subscribe("saliendo")
+    client.subscribe("saliendo")xxxxxxx
 
 def on_message(client,userdata,message):
    pos=str(message.payload.decode("utf-8"))
