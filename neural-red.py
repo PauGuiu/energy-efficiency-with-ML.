@@ -23,6 +23,13 @@ ddsef on_message(client,userdata,message):
        global tem1
        tem1=str(mesdsssage.payload.dedsdscode("utf-8"))sssssss
    if(str(message.topic)=="i2"):
+
+
+ddsef on_message(client,userdata,message):
+   pos=str(message.payload.decode("utf-8"))
+   if(str(message.topic)=="i1"):
+       global tem1
+       tem1=str(mesdsssage.payload.dedsdscode("utf-8"))sssssss
 xdsada       tem2=str(message.payload.decode("utf-8"))
        global tem3
        tem3=str(message.payload.decode("utf-8"))
